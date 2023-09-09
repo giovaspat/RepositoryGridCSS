@@ -1,0 +1,215 @@
+main {
+    border-radius: 5%;
+}
+
+
+section {
+    border: 2px solid gainsboro;
+    margin-bottom: 1rem;
+    position: relative;
+    border-radius: 2%;
+    width: 30em;
+    margin: 0;
+    display: flex;
+   
+}
+
+div {
+    border: 1.5pt solid rgb(164, 156, 156);
+    margin: 0;
+    text-align: center;
+    font-size: 24px;
+  
+}
+
+section.calcolatrice {
+    display: grid;
+    border-radius: 2%;
+    border-color: rgb(195, 204, 213);
+    border-width: 3px;
+    overflow: hidden;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 70px 80px 80px 80px 80px 80px;
+    grid-template-areas:
+        "result result result result"
+        "più meno per diviso"
+        "sette otto nove uguale"
+        "quattro cinque sei uguale"
+        "uno due tre uguale"
+        "zero punto ac uguale";
+       
+}
+
+#result{
+    grid-area: result;
+    background-color: rgb(55, 55, 65);
+    color: white;
+    font-size: 50px;
+    text-align: right;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+#più {
+    grid-area: più;
+    background-color: rgb(184, 212, 221);
+    color: rgb(85, 75, 75);
+    padding-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+#meno {
+    grid-area: meno;
+    background-color: rgb(184, 212, 221);
+    color: rgb(85, 75, 75);
+    padding-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+#per {
+    grid-area: per;
+    background-color: rgb(184, 212, 221);
+    color: rgb(85, 75, 75);
+    padding-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+#diviso {
+    grid-area: diviso;
+    background-color: rgb(184, 212, 221);
+    color: rgb(85, 75, 75);
+    padding-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+#sette {
+    grid-area: sette;
+    background-color: rgb(236, 242, 244);
+    color: rgb(85, 75, 75);
+    padding-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+#otto {
+    grid-area: otto;
+    background-color: rgb(236, 242, 244);
+    color: rgb(85, 75, 75);
+    padding-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+#nove {
+    grid-area: nove;
+    background-color: rgb(236, 242, 244);
+    color: rgb(85, 75, 75);
+    padding-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+#uguale {
+    grid-area: uguale;
+    background-color: rgb(230, 67, 92);
+    padding-top: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+#quattro {
+    grid-area: quattro;
+    background-color: rgb(236, 242, 244);
+    color: rgb(85, 75, 75);
+    padding-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+#cinque {
+    grid-area: cinque;
+    background-color: rgb(236, 242, 244);
+    color: rgb(85, 75, 75);
+    padding-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+#sei {
+    grid-area: sei;
+    background-color: rgb(236, 242, 244);
+    color: rgb(85, 75, 75);
+    padding-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+#uno {
+    grid-area: uno;
+    background-color: rgb(236, 242, 244);
+    color: rgb(85, 75, 75);
+    padding-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+#due {
+    grid-area: due;
+    background-color: rgb(236, 242, 244);
+    color: rgb(85, 75, 75);
+    padding-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+#tre {
+    grid-area: tre;
+    background-color: rgb(236, 242, 244);
+    color: rgb(85, 75, 75);
+    padding-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+#zero {
+    grid-area: zero;
+    background-color: rgb(236, 242, 244);
+    color: rgb(85, 75, 75);
+    padding-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+#punto {
+    grid-area: punto;
+    background-color: rgb(236, 242, 244);
+    color: rgb(85, 75, 75);
+    padding-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+#ac {
+    grid-area: ac;
+    background-color: rgb(236, 242, 244);
+    color: rgb(85, 75, 75);
+    padding-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 28px;
+}
